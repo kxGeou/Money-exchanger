@@ -1,12 +1,57 @@
 <!DOCTYPE html>
 <html lang="pl">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Money Exchanger</title>
+    <title>Przelicznik Walut</title>
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
+
+    <h1>Licznik Walut</h1>
+
+    <div class="wrapper">
+    
+        <div class="first box">
+            <p class="firstText">Converter</p>
+            <input type="number" class="converter" placeholder="Podaj ilość zł">
+            <button class="exchanger">Przelicz</button>
+        </div>
+
+        <p class="firstCurrency cur">ZŁ</p>
+        <p class="secondCurrency cur">EUR</p>
+
+        <div class="second box">
+            <p class="currencyText"></p>
+            <div class="buttonWrapper">
+                <button class="currency euro">EUR</button>
+                <button class="currency dollar">USD</button>
+                <button class="currency funt">GBP</button>
+                <button class="currency crown">CZK</button>
+            </div>
+        </div>
+    
+    </div>
+
     <script src="script.js"></script>
 </body>
+
 </html>
+
+
+<!-- 
+
+ 2 boxy 
+
+ 1 box {   
+    - input który przyjmuje wartość
+    - przycisk który wysyla wartosc z inputa 
+}
+ 2 box {
+    - tekst który pokazuje przeliczoną wartosc inputa na dana walute 
+    - 4 przyciski z 4 walutami do wyboru 
+ }
+
+-->
