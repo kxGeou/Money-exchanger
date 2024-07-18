@@ -78,6 +78,15 @@ body {
 .second {
     position: relative;
 }
+
+
+.noDataInput {
+    border: 1px solid #ff6366;
+    box-shadow: 0rem 0rem 0.5rem #ff6366;;
+    color: #ff6366;
+}
+
+
 /* TEKSTY STRONY */
 
 .currencyText {
@@ -98,4 +107,8 @@ h1 {
     font-size: 1.5rem;
     font-weight: lighter;
     opacity: 25%;
+}
+
+.currencyText {
+    font-size: 1.3rem;
 }
